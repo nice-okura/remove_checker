@@ -1,4 +1,2 @@
-remove_checker
+remove_checher
 ==============
-
-remove_checker

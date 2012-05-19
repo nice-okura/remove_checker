@@ -1,3 +1,4 @@
+.git_old/
 *.gem
 *.rbc
 .bundle
@@ -16,3 +17,6 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+config.yml
+follower_logs/
