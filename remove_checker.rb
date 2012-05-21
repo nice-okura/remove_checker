@@ -23,9 +23,10 @@ require "yaml"
 
 # ユーザー名(未使用)
 USER = "hoge"
-LATEST_IDS_FILE = File.expand_path("#{File.dirname(__FILE__)}/follower_logs/latest_follower_ids.txt")
-REMOVE_LOG_FILE = File.expand_path("#{File.dirname(__FILE__)}/follower_logs/remover_")
-CONFIG_FILE = "./config.yml"
+FILE_DIR = File.dirname(__FILE__)
+LATEST_IDS_FILE = File.expand_path("#{FILE_DIR}/follower_logs/latest_follower_ids.txt")
+REMOVE_LOG_FILE = File.expand_path("#{FILE_DIR}/follower_logs/remover_")
+CONFIG_FILE = File.expand_path("#{FILE_DIR}/config.yml")
 
 #
 #=
